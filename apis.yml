@@ -8,7 +8,7 @@ description: >-
   time; this index captures DuPont's web presence for monitoring future
   developer activity.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Fortune 500
   - Industrial
