@@ -1,12 +1,10 @@
 aid: dupont
 name: DuPont
-description: >-
-  DuPont is a leading solutions provider for healthcare, water, and a broad
-  range of industrial segments, powered by high-performance engineered
-  products, leading-edge application development, and top-tier manufacturing.
-  No public developer APIs or developer portal have been identified at this
-  time; this index captures DuPont's web presence for monitoring future
-  developer activity.
+description: DuPont is a leading solutions provider for healthcare, water, and a broad
+  range of industrial segments, powered by high-performance engineered products, leading-edge
+  application development, and top-tier manufacturing. No public developer APIs or
+  developer portal have been identified at this time; this index captures DuPont's
+  web presence for monitoring future developer activity.
 type: Index
 deliveryModel:
   model: unknown
@@ -32,28 +30,55 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dupont.png
 tags:
-  - Fortune 500
-  - Industrial
-  - Materials Science
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/dupont/refs/heads/main/apis.yml
+- Fortune 500
+- Industrial
+- Materials Science
+- Chemicals
+- Manufacturing
+url: https://raw.githubusercontent.com/api-evangelist/dupont/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-10-20'
 specificationVersion: '0.23'
-apis: []
-common:
-  - type: DomainSecurity
-    url: security/dupont-domain-security.yml
-  - type: Website
-    url: https://www.dupont.com
-  - type: About
-    url: https://www.dupont.com/about.html
-  - type: News
-    url: https://www.dupont.com/news.html
-  - type: Sustainability
-    url: https://www.dupont.com/sustainability.html
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/dupont
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: Hosts
+  url: hosts/dupont-hosts.yml
+- type: SignUp
+  url: https://www.dupont.com/signup.html/
+- type: Leadership
+  url: https://www.dupont.com/about/leadership/lori-koch.html
+- type: DomainSecurity
+  url: security/dupont-domain-security.yml
+- type: Website
+  url: https://www.dupont.com
+- type: About
+  url: https://www.dupont.com/about.html
+- type: News
+  url: https://www.dupont.com/news.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dupont
+- type: PrivacyPolicy
+  url: https://www.dupont.com/privacy.html
+- type: TermsOfService
+  url: https://www.dupont.com/legal-notices-and-terms-of-use.html
+apis: []
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: DuPont (www.dupont.com) is an engineered-materials manufacturer; pre-flight
+    contract discovery on api.dupont.com, www.dupont.com and careers.dupont.com found
+    no OpenAPI, GraphQL, AsyncAPI or MCP, developer.dupont.com does not resolve, and
+    www.dupont.com/llms.txt is 404.
+  evidence:
+  - url: https://www.dupont.com
+    status: 200
+  - url: https://www.dupont.com/llms.txt
+    status: 404
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v5
